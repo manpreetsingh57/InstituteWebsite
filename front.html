@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="backend.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <div class="row">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><h6><b> Digital</b></h6><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><h6><b> DLP</b></h6></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><h6><b> CBT</b></h6></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;<b>Admission Assistance:</b> 077220 01153 (7am to 10pm)</h4></a>
+                        </li>
+                </div>      
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle a"
+                        href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Stream
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li> </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Icon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><b>CENTERS </b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>COURSES</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>RESULTS</b></a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#"><b>STUDENTS CORNER</b></a>
+            </li>
+            </ul>
+            <form class="form-inline">
+                    <input class="form-control mr-sm-3" type="search" placeholder="Search course name" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+        
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h5>Welcome to Institute</h5>
+                        <p>India's best known institute.</p>
+                </div>  
+            
+            </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h5>Come to Learn Chemistry</h5>
+                        <p>Good hands on chemical formulas</p>
+                </div>  
+            
+            </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h5>Bright future of students</h5>
+                        <p>Good placement in the company</p>
+                </div>  
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+        <div class="container container-news">
+                <div class="row">
+                    <h3> 
+                        <i class="fa fa-newspaper-o text-center mt-40" aria-hidden="true"></i> Advertisements</h3>
+                </div>
+                <div class="row"> 
+                    <!--repeating elements-->
+                            <!-- First panel for items 1 & 2-->
+                    <div class="card-deck">
+                        <div class="card card-news w-50">
+                        <div class="card-block card-block-news"><!--other choice of Panel 1 starts here-->
+                            <h4>
+                                <a href="#">Item 1 Welcome Clark Smith to the Convergeone Team!</a></h4>
+                            <p> 
+                                <small class="text-muted">1/20/2017 7:00 AM</small> </p><!--Panel 1 ends here-->
+                        </div> 
+                        </div> 
+                        <div class="card card-news w-50">
+                        <div class="card-block card-block-news"><!--other choice of Panel 2 starts here-->
+                            <h4> 
+                                <a href="#">Item 2 Vendor Announces Restructuring</a></h4>
+                            <p> 
+                                <small class="text-muted">1/19/2017 4:05 PM</small></p><!--Panel 2 ends here-->
+                        </div>
+                        </div> 
+                    </div> 
+            </div>
+            <div class="btn btn-primary">More News</div>
+            </div>
+            </div>
+
+    <div class="col-6">
+        <div class="container container-news">
+                <div class="row">
+                    <h3> 
+                        <i class="fa fa-newspaper-o text-center mt-40" aria-hidden="true"></i> News & Events</h3>
+                </div>
+                <div class="row"> 
+                    <!--repeating elements-->
+                            
+                            <!-- First panel for items 1 & 2-->
+                        
+                    <div class="card-deck">
+                        <div class="card card-news w-50">
+                        <div class="card-block card-block-news"><!--other choice of Panel 1 starts here-->
+                            <h4>
+                                <a href="#">Item 1 Welcome Clark Smith to the Convergeone Team!</a></h4>
+                            <p> 
+                                <small class="text-muted">1/20/2017 7:00 AM</small> </p><!--Panel 1 ends here-->
+                        </div> 
+                        </div> 
+                        <div class="card card-news w-50">
+                        <div class="card-block card-block-news"><!--other choice of Panel 2 starts here-->
+                            <h4> 
+                                <a href="#">Item 2 Vendor Announces Restructuring</a></h4>
+                            <p> 
+                                <small class="text-muted">1/19/2017 4:05 PM</small></p><!--Panel 2 ends here-->
+                        </div>
+                        </div> 
+                    </div> 
+            </div>
+            <div class="btn btn-primary">More News</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="text-center mt-40">
+           <h2><b> Current offers</b></h2></div>
+            <div class="row">
+                <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\5.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pay 1000rs</h5>
+                        <p class="card-text">Get 100rs off</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Come fast</li>
+                              </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">ENROLL NOW!!!</a>
+                    </div>
+                </div>  
+                </div>
+                    
+                <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\5.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Pay 5000rs</h5>
+                                <p class="card-text">Get 200rs off</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Enjoy Life with studies</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">ENROLL NOW!!!</a>
+                            </div>
+                        </div>  
+                </div>
+
+                    <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\5.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pay 4500rs</h5>
+                                    <p class="card-text">Get 300rs off</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Fast and furious with studies.</li>
+                                 
+                                </ul>
+                                <div class="card-body">
+                                    <a href="#" class="card-link">ENROLL NOW!!!</a>
+                                  
+                                </div>
+                            </div>  
+                            </div>
+
+                        <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="C:\Users\Manav\Desktop\ProjectFreelancer\images\5.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pay 6500rs</h5>
+                                        <p class="card-text">Get 555rs off</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Limited Offer</li>
+                                     
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="#" class="card-link">ENROLL NOW!!!</a>
+                                     
+                                    </div>
+                                </div>  
+                                </div>
+                </div>
+
+
+        <div class="container">
+                <h3 class="text-center mt-40">Answers & Solutions</h3>
+                <p class="text-center">Find accurate Answers & detailed Solutions of major competitive exams and AIATS and mock tests here.</p>
+                <div class="row mt-40">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box1">
+                            <img src="http://bestjquery.com/tutorial/hover-effect/demo206/images/img-1.jpg" alt="">
+                            <h3 class="title">Answers</h3>
+                            <ul class="icon">
+                                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                <li><a href="#"><i class="fa fa-link"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box1">
+                            <img src="http://bestjquery.com/tutorial/hover-effect/demo206/images/img-2.jpg" alt="" class="img-thumbn">
+                            <h3 class="title">NTSE</h3>
+                            <ul class="icon">
+                                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                <li><a href="#"><i class="fa fa-link"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box1">
+                            <img src="http://bestjquery.com/tutorial/hover-effect/demo206/images/img-3.jpg" alt="">
+                            <h3 class="title">Answer Key</h3>
+                            <ul class="icon">
+                                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                <li><a href="#"><i class="fa fa-link"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        <div class="jumbotron jumbotron-fluid mt-40">
+                <div class="container">
+                    <h1 class="display-6 text-center"><b>Our Results</b></h1>
+                   
+                    <nav class="nav nav-pills nav-justified">
+                        <div class="row">
+                            <div class="col-4">
+                            <a class="nav-item1 nav-link " href="#">MEDICAL</a>
+                        </div>
+                        <div class="col-4">
+                            <a class="nav-item1 nav-link" href="#">ENGINEERING</a>
+                        </div>
+                        <div class="col-4">
+                            <a class="nav-item1 nav-link" href="#">SCHOLARSHIP</a>
+                        </div>
+                        </div>
+                          </nav>
+                
+                <div class="text-center mt-40">
+                   <button type="button" class="btn btn-light">Show all Medical Results</button>
+                </div>
+        </div>
+        </div>
+        
+    <h3 class="text-center mt-40">Testimonials</h3>
+   
+    <div class="jumbotron jumbotron-fluid mt-40">
+            <h1 class="display-6 text-center"><b>Talk to our experts</b></h1>
+        <form>
+            <div class="row">
+                <div class="col-4">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-4">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email ID">
+                </div>
+                <div class="col-4">
+                    <input class="form-control" type="tel" value="Phone Number" id="example-tel-input">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-4">
+                            <select class="form-control">
+                                    <option>Stream</option>
+                            </select>
+                    </div>
+                    <div class="col-4">
+                            <select class="form-control">
+                                    <option>Class</option>
+                            </select>
+                    </div>
+                    <div class="col-4">
+                            <select class="form-control">
+                                    <option>Center</option>
+                            </select>
+                    </div>
+            </div>
+               <br>
+            <div class="form-check text-center">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1"><b>
+                      By expressing you are accepting to Terms of use and Privacy Policy.</b>
+                    </label>
+            </div>
+
+            <div class="text-center mt-40">
+                    <button type="button" class="btn btn-light">REQUEST A CALL BACK</button>
+            </div>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="jum2 jumbotron jumbotron-fluid ">
+            <div class="container text-center">
+              <h2><b>Chavan Chemistry Classes Advantages</b></h2>
+              <p class="lead">TTest prep solutions for NEET, JEE, Foundations and Board Exams.</p>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                   <figure class="float-left">
+                    <img src="C:\Users\Manav\Desktop\ProjectFreelancer\images\j1.png" alt="">
+                    </figure>
+                    <div class="row">
+                         <h4> Well-Curated Study Material </h4>
+                            <p> 30 years of Aakash's experience helps us bring one of the best learning to you.
+                         With extensive coverage of the learning material, 
+                         it will help you enhance your preparation to crack the next exam.</p>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <figure class="float-left">
+                        <img src="C:\Users\Manav\Desktop\ProjectFreelancer\images\j2.png" alt="">
+                        </figure>
+                        <div class="row">
+                        <h4>Experienced Faculty</h4>
+                        <p>Aakash faculty adds its experience and value to student’s 
+                            learning constantly with doubt clarification that enhances your learning and helps you 
+                            perform better.</p>
+                        </div>
+                 </div>
+                 </div>
+            <br>
+        <div class="row">
+                <div class="col-6">
+                    <figure class="float-left">
+                            <img src="C:\Users\Manav\Desktop\ProjectFreelancer\images\j3.png" alt="">
+                            </figure>
+                            <div class="row">
+                    <h4>Convenience of Learning </h4>
+                    <p> No more travel needed to get guided learning for your next exam.
+                         Get the "Aakash Edge" right from the comfort of your home. 
+                         Study, restudy and assess your performance.</p>
+                </div>
+                </div>
+                <div class="col-6">
+                        <figure class="float-left">
+                                <img src="C:\Users\Manav\Desktop\ProjectFreelancer\images\j4.png" alt="">
+                                </figure>
+                                <div class="row">
+                        <h4>Performance Review</h4>
+                        <p>Analyse your performance and review your progress among thousands of Aakash students. 
+                            Comprehensive performance & progress reports help you prepare much better for your exam.</p>
+                </div>
+            </div>
+     </div>
+
+
+    <div class=" jum3 jumbotron jumbotron-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col la" >ABOUT US
+                        <li >About Chavan </li>
+                        <li >Why Chavan</li>
+                        <li >Chavan in Media</li>
+                        <li >Investor Corner</li>
+                </div>
+
+
+                <div class="col la">COURSES & SCHOLARSHIPS
+                        <li >Classroom Courses</li>
+                        <li >Distance Learning Courses</li>
+                        <li >National Talent Hunt Exam</li>
+                        <li >Admission Cum Scholarship Test</li>
+                </div>
+                <div class="col la">STUDENT AREA
+                        <li >Fee Structure</li>
+                        <li > Prize Scheme</li>
+                        <li >Download Sample Papers</li>
+                        <li >Top Engineering Colleges</li>
+                </div>
+                <div class="col la">OTHERS
+                        <li >Admission Enquiry</li>
+                        <li > Career </li>
+                        <li >Franchise Enquiry</li>
+                        <li >FAQs</li>
+                        <li >Social Media Gallery</li>
+                </div>
+                <div class="col la">Follow Us
+                        <li >facebook</li>
+                        <li > Twitter </li>
+                        <li >Youtube</li>
+                        <li >Google</li>
+                        <br>
+                        <b>Chavan Chemistry Classes</b>
+                        Registered office Address:
+                             Akashwani to Seven Hill Road. Second Floor, Chetan Trade Centre,
+                                 opp. SFS School, Jalna Road, Aurangabad, Maharashtra 431001      
+                                 Phone Number: 077220 01153
+                </div>
+             </div>
+         </div>
+    </div>
+    <footer class="page-footer font-small blue">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+              <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+   
+
+    </body>
+  </html>
+
+ 
